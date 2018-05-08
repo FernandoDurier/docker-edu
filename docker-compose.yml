@@ -1,0 +1,7 @@
+version: '3'
+services:
+  backend:
+    build: watsonar-backend-endpoints/
+    image: war/backend
+    ports: 
+      - "3000:3000"

@@ -1,0 +1,3 @@
+[submodule "watsonar-backend-endpoints"]
+	path = watsonar-backend-endpoints
+	url = git@github.ibm.com:IGF-Americas/watsonar-backend-endpoints.git
