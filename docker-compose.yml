@@ -5,3 +5,8 @@ services:
     image: war/backend
     ports: 
       - "3000:3000"
+  ui:
+    build: watsonar-front/
+    image: war/ui
+    ports: 
+      - "8080:8080"
