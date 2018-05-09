@@ -11,7 +11,7 @@ In order to install docker please follow these steps below:
 1. Try to exchange your machine for a MAC or at least one that runs Linux distribution ... And do not try VMs for this (I know you thought about it ...)
 2. If you use windows 10, just go to Docker website and download it
 * If not windows 10 user, really consider step 1, else, try the chocolatey (windows apt-get), and make the installation through it
-3. Follow this reference -> [Study of Docker on Windows Machines](./"Study of Docker on Windows Machines.pdf") 
+3. Follow this reference -> [Study of Docker on Windows Machines](./Study-of-Docker-on-Windows-Machines.pdf) 
 
 ## Dockerfile
 The dockerfile is the script that will build each docker image you need.
