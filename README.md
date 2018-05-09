@@ -11,14 +11,14 @@ In order to install docker please follow these steps below:
 1. Try to exchange your machine for a MAC or at least one that runs Linux distribution ... And do not try VMs for this (I know you thought about it ...)
 2. If you use windows 10, just go to Docker website and download it
 * If not windows 10 user, really consider step 1, else, try the chocolatey (windows apt-get), and make the installation through it
-3. Follow this reference -> [Study of Docker on Windows Machines](./docker-on-windows-machines.pdf) 
+3. Follow this reference -> [Study of Docker on Windows Machines](./docs/docker-on-windows-machines.pdf) 
 
 ## Dockerfile
 The dockerfile is the script that will build each docker image you need.
 
 1. At root level of a project create a extensionless file Dockerfile
-2. Write your needed commands there to build your adequate image, e.g. [Dockerfile](./Dockerfile)
-3. Probably there will be things you won't want to upload when creating your container, one of them are the project dependencies, so create a file .dockerignore like .gitignore, e.g. [dockerignore](./.dockerignore)
+2. Write your needed commands there to build your adequate image, e.g. [Dockerfile](./docs/Dockerfile)
+3. Probably there will be things you won't want to upload when creating your container, one of them are the project dependencies, so create a file .dockerignore like .gitignore, e.g. [dockerignore](./docs/.dockerignore)
 4. In order to build the container using the Dockerfile, issue this command on your terminal:
     `docker build <container name> <path to the Folder containing the Dockerfile>`
 5. Now that it is built, lets run the container:
