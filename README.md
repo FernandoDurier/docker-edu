@@ -44,5 +44,7 @@ Now that we have everything setup and ready, we can compose and manage the conta
 7. Now that the environment is setup, lets make the one file that will make every magic of docker-compose a reality, create a new file called docker-compose and its extension will yml(yet another markup language)
 8. Edit the yml as we edited in here -> [docker-compose](./docker-compose.yml)
 9. As you saw there, we declared the services we dockerized, the path where the dockerfile can be found (`build`), the image that will be generated through their Dockerfiles process (`image`) and finally the port mapping (`ports`), i.e. in which port of the container the service will be exposed and in which port of the host the docker's port will be exposed.
-
+10. Now that everything is mapped and defined, go to the folder where the yml file is in and issue the following commands: `docker-compose up`
+11. In order to stop and clear the containers created, issue the following command: `docker-compose down`
+ 
 
