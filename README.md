@@ -19,6 +19,11 @@ The dockerfile is the script that will build each docker image you need.
 1. At root level of a project create a extensionless file Dockerfile
 2. Write your needed commands there to build your adequate image, e.g. [Dockerfile](./watsonar-backend-endpoints/Dockerfile)
 3. Probably there will be things you won't want to upload when creating your container, one of them are the project dependencies, so create a file .dockerignore like .gitignore, e.g. [dockerignore](./watsonar-backend-endpoints/.dockerfile)
+4. In order to build the container using the Dockerfile, issue this command on your terminal:
+    `docker build <container name> <path to the Folder containing the Dockerfile>`
+5. Now that it is built, lets run the container:
+    `docker run -d -p <container Port>:<host Port> <container name>`
+6. Now, if everything went well on the aforementioned steps, you should be able to test the service dockerized through the localhost and the ports you mapped. E.g., normally we choose common ports like 3000 or 8080 for mapping.
 
 ## Docker-Compose
 Now that we have everything setup and ready, we can compose and manage the container creation process through files and a reduced set of commands ...
