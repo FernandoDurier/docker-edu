@@ -26,8 +26,8 @@ The dockerfile is the script that will build each docker image you need.
 6. Now, if everything went well on the aforementioned steps, you should be able to test the service dockerized through the localhost and the ports you mapped. E.g., normally we choose common ports like 3000 or 8080 for mapping.
 
 * Example:
-1. `docker build war/ui .`
-2. `docker build war/backend .`
+1. `docker build -t war/ui .`
+2. `docker build -t war/backend .`
 3. `docker run -d -p 3000:3000 war/backend`
 4. `docker run -d -p 8080:8080 war/ui`
 * **Now it is possible to check these services on `localhost:3000` and `localhost:8080`**
