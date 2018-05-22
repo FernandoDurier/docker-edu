@@ -51,9 +51,9 @@ Now that we have everything setup and ready, we can compose and manage the conta
 1. Install Docker and Docker Compose
 2. Go to the folder and issue the command `git submodule init`
 3. Issue the command `git submodule update`
-4. Issue the command `docker-Compose Build`
-5. Issue the command `docker-Compose Up`
-6. Issue the command `docker-Compose Down`
+4. Issue the command `docker-compose Build`
+5. Issue the command `docker-compose Up`
+6. Issue the command `docker-compose Down`
 7. Do all needed modification on the submodules and commit and push inside their folders, and everything will be alright
  
 
