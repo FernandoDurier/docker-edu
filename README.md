@@ -46,5 +46,14 @@ Now that we have everything setup and ready, we can compose and manage the conta
 9. As you saw there, we declared the services we dockerized, the path where the dockerfile can be found (`build`), the image that will be generated through their Dockerfiles process (`image`) and finally the port mapping (`ports`), i.e. in which port of the container the service will be exposed and in which port of the host the docker's port will be exposed.
 10. Now that everything is mapped and defined, go to the folder where the yml file is in and issue the following commands: `docker-compose up`
 11. In order to stop and clear the containers created, issue the following command: `docker-compose down`
+
+## In order to use this project for the first time:
+1. Install Docker and Docker Compose
+2. Go to the folder and issue the command `git submodule init`
+3. Issue the command `git submodule update`
+4. Issue the command `Docker-Compose Build`
+5. Issue the command `Docker-Compose Up`
+6. Issue the command `Docker-Compose Down`
+7. Do all needed modification on the submodules and commit and push inside their folders, and everything will be alright
  
 
