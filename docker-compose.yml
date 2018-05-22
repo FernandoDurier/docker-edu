@@ -3,10 +3,14 @@ services:
   backend:
     build: watsonar-backend-endpoints/
     image: war/backend
+    environment:
+      - NODE_ENV=development
     ports: 
       - "3000:3000"
   ui:
     build: watsonar-front/
     image: war/ui
+    environment:
+      - NODE_ENV=development
     ports: 
       - "8080:8080"

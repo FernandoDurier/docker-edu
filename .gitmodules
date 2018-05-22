@@ -1,6 +1,6 @@
 [submodule "watsonar-backend-endpoints"]
 	path = watsonar-backend-endpoints
-	url = https://github.ibm.com/IGF-Americas/watsonar-backend-endpoints.git
+	url = git@github.ibm.com:IGF-Americas/watsonar-backend-endpoints.git
 [submodule "watsonar-front"]
 	path = watsonar-front
-	url = https://github.ibm.com/IGF-Americas/watsonar-front.git
+	url = git@github.ibm.com:IGF-Americas/watsonar-front.git
