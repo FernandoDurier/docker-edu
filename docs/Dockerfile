@@ -1,7 +1,9 @@
 FROM node:8
 
-ENV NODE_ENV production
-ENV DEBUG *
+ENV NODE_ENV development
+
+#Uncomment the next hastag and allow docker to initiate debug
+#ENV DEBUG *
 
 WORKDIR /app
 
